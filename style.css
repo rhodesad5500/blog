@@ -1,0 +1,16 @@
+.buttons{
+    display: inline-block;
+}
+figure {
+    display: inline-block;
+}
+
+figure figcaption{
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif
+}
+
+figure img{
+    width: 100%;
+}

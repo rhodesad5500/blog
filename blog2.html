@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel = "stylesheet" type ="text/css" href = "style.css">
+    <title>Andrew's Blog: Learning Audio</title>
+</head>
+<body>
+    <form action = "index.html" class = "buttons">
+		<button type="submit">Home</button>
+    </form>
+    <form action = "blog.html" class = "buttons">
+        <button type = "submit">Prev Post</button>
+    </form>
+	<form action = "" class = "buttons">
+		<button type = "submit">Next Post</button>
+	</form>
+    
+    <h1>Audio Files</h1>
+    
+    <p>For Project 1, I'm creating a website for my friend Travis. Travis is into electronic music production and has some stuff out there on soundcloud already, but I thought it would be a fun idea to make a space uniquely his.
+        Part of this space needs to, of course, include playable tracks he's made so people can listen to it directly on the site. 
+    </p>
+    
+    <label for = "audio">Here's an example:</label>
+    <audio controls>
+        <source src = "audio/horizon.wav" type = "audio/wav">
+    </audio>
+    <br>
+    <p>Sweet, we got some tunes. Now that I think about it, we should probably have some sort of title for this track in case someone wants to know what this file they're listening to is even called... So let's do that!</p>
+
+    <figure>
+        <figcaption>Horizon</figcaption>
+        <audio controls>
+            <source src = "audio/horizon.wav" type = "audio/wav">
+        </audio>
+    </figure>
+    <br>
+
+    <p>Looking better! Next, let's add some album art above the audio player to give it the complete look. Considering this isn't a finished track and doesn't have any album art yet, I'll take so artistic liberties...</p>
+
+    <figure>
+        <img src = "img/gothdance.gif">
+        <figcaption>Horizon</figcaption>
+        <audio controls>
+            <source src = "audio/horizon.wav" type = "audio/wav">
+        </audio>
+    </figure>
+    <br>
+
+    <p>I-It's beautiful...</p>
+
+</body>
+</html>
