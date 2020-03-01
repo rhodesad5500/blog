@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel = "stylesheet" type ="text/css" href = "style.css">
+    <title>Andrew's Blog: Learning Audio</title>
+</head>
+<body>
+    <form action = "index.html" class = "buttons">
+		<button type="submit">Home</button>
+    </form>
+    <form action = "blog2.html" class = "buttons">
+        <button type = "submit">Prev Post</button>
+    </form>
+	<form action = "" class = "buttons">
+		<button type = "submit">Next Post</button>
+	</form>
+    
+    <h1>Linking through an image</h1>
+
+    <p>This week I wanted to work on getting my About page set up for project1 that will include links to different social media like Twitter or Soundcloud. I think that the best way
+        to achieve something like this is just having some simple icons for a user to click on. First, let's get some images in here.
+    </p>
+    <div class = "imgrow">
+        <img class = "logo" src = "img/twitter.png">
+        <img class = "logo" src = "img/soundcloud.png">
+        <img class = "logo" src = "img/reddit.png">
+    </div>
+
+    <p>Getting those icons on the page was easy enough, I just used some HTML that looks like this (styling done in a separate file of course):</p>
+    <div class = "code">
+        <code>
+            &lt;div class = "imgrow"&gt;
+            &lt;img class = "logo" src = "img/twitter.png"&gt;
+            &lt;img class = "logo" src = "img/soundcloud.png"&gt;
+            &lt;img class = "logo" src = "img/reddit.png"&gt;
+            &lt;/div&gt;
+        </code>
+    </div>
+
+    <p>Now let's actually get these images functional. For demonstration purposes, I'll just have them link to the main page of their respective site.</p> 
+    <div>
+        <a href = "https://twitter.com">
+            <img class = "logo" src = "img/twitter.png">
+        </a>
+        <a href = "https://soundcloud.com">
+            <img class = "logo" src = "img/soundcloud.png">
+        </a>
+        <a href = "https://reddit.com">
+            <img class = "logo" src = "img/reddit.png">
+        </a>
+    </div>
+
+    <p>How was this achieved you ask? Well, you could probably take a guess at the technique used...</p>
+    <div class = "code">
+        <code>
+            &lt;div class = "imgrow"&gt;
+                &lt;a href = "https://twitter.com"&gt;
+                    &lt;img class = "logo" src = "img/twitter.png"&gt;
+                &lt;/a&gt;
+                &lt;a href = "https://soundcloud.com"&gt;
+                    &lt;img class = "logo" src = "img/soundcloud.png"&gt;
+                &lt;/a&gt;
+                &lt;a href = "https://reddit.com"&gt;
+                    &lt;img class = "logo" src = "img/reddit.png"&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+        </code>
+    </div>
+
+    <p>Yup, that's right! Just a basic ol' &lt;a&gt; tag, like how you would link anything in HTML really. TLDR: I'm a dummy. Here's my <a href = 'https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML'>source</a> I used to learn about this. See ya next week!</p>
+</body>
+</html>

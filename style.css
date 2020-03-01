@@ -14,3 +14,22 @@ figure figcaption{
 figure img{
     width: 100%;
 }
+
+.imgrow{
+    display: inline-flex;
+
+}
+
+.logo{
+    width: 5%;
+}
+
+.code{
+    background-color: rgb(200, 200, 200);
+    border: 1px solid black;
+    border-radius: 3px;
+}
+code{
+    display: block;
+    white-space: pre-wrap;
+}
